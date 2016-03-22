@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Fluffy Chainsaw Blog</title>
-
     <!--jquery-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!--bootstrap-->
@@ -15,13 +14,9 @@
     <!--css-->
     <link rel="stylesheet" href="style.css">
 
-
-
 </head>
 <body ng-app="blogApp">
-
 <div ui-view></div>
-
 
 <!--angular script files-->
 <script src="angular/angular.js" type="text/javascript"></script>
